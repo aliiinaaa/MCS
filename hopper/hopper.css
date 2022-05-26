@@ -1,0 +1,36 @@
+.page {
+width: 1303px;
+margin: 0 auto;
+  }
+
+.page >h1 {
+ width: 1310px;
+height: 51px;
+left: 65px;
+top: 96px;
+color: white;
+background: black;
+}
+.page >h3{
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+color: white;
+background: black;
+padding: auto auto 10px 10px;
+}
+.page >p {
+  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+}
+.page >ul{
+ font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+}
