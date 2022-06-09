@@ -1,0 +1,81 @@
+*{
+width: 1440px;
+font-family: "Times New Roman";
+
+
+}
+.menu{
+display:flex;
+align-content: center;
+height: 60px;
+right: 0px;
+top: 0px;
+color: aliceblue;
+background: #FE1A19;
+}
+.menu>h2{
+width: 1000px;
+height: 20px;
+margin-left: 20px;
+top: 20px;
+font-weight: 700;
+font-size: 22px;
+line-height: 23px;
+font-family: "Helvetica";
+}
+
+.copyright{
+    display: flex;
+    justify-content: flex-start;
+position: absolute;
+width: 1440px;
+height: 60px;
+top: 984px;
+background: #FE1A19;
+margin-top: 122px;
+}
+.copyright>h3{
+font-family: "Helvetica";
+width: 820px;
+height: 20px;
+margin-left: 30px;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+color: aliceblue;
+}
+.recept1, .recept2, .recept3{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+width: 334px;
+height: 670px;
+font-weight: 400;
+font-size: 22px;
+line-height: 23px;
+color: #000000;
+}
+.recept1 .recept2 .recept3>h3{
+font-family: "Helvetica";
+width: 207px;
+height: 23px;
+padding-bottom: 44px;
+}
+ol {
+list-style: none;
+}
+.container {
+display:flex;
+justify-content: space-around;
+align-content: center;
+}
+.recepts, .recepts2, .recepts3{
+    display: flex;
+    align-content: center;
+    width: 400px;
+    height: 800px;
+    margin-top: 112px;
+    margin-bottom: 112px;
+    border: 5px solid #E5E000;
+    border-radius: 30px;
+    }
